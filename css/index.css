@@ -1,0 +1,118 @@
+.form{
+    width: 980px;
+    position: relative;
+    margin: 14em auto;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 38px;
+    border-bottom: 1px solid #ddd;
+    height: 26px;
+}
+
+.form h2 span{
+    background: #fff;
+    padding: 0 15px;
+}
+
+.form .form-area{
+    width: 423px;
+
+    margin: 0 auto;
+}
+
+input[type="text"],input[text="password"]{
+    border: 1px solid #dcdfe6;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #606266;
+    
+}
+
+.form-area .form-item{
+    margin: 50px 0;
+    position: relative;
+}
+
+input[type="text"]:hover,input[text="password"]:hover{
+    border-color: #c0c4cc;
+}
+
+input[type="text"]:focus,input[text="password"]:focus{
+    border-color: #00a1d6;
+    outline: none;
+}
+
+.form .form-area .form-item button{
+
+}
+
+button{
+    height: 50px;
+    background: #00a1d6;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 430px;
+}
+
+button:hover{
+    color: green;
+}
+
+.form-area .form-item .btn-sncode{
+    width: 130px;
+    height: 36px;
+    position: absolute;
+    left: 293px;
+    top: 2px;
+}
+
+.form-area .readme{
+    margin: -40px 0;
+    font-size: 12px;
+}
+
+.form a{
+    color: #00a1d6;
+}
+
+button .fill{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tip{
+    position: absolute;
+    right: 270px;
+    top: 480px;
+}
+
+.form .form-area .form-item .error{
+    position: absolute;
+    width: 240px;
+    right: -245px;
+    top: 9px;
+    color: red;
+    font-size: 16px;
+    display: none;
+}
+
+.form-area .form-item.haserror .error{
+    display: block;
+}
+
+.form .form-area .form-item .mr{
+    position: absolute;
+    width: 240px;
+    right: 4px;
+    top: 1px;
+    color: red;
+    display: block;
+}
